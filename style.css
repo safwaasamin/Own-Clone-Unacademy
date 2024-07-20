@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    background: #fcfcfc;
+}
+
+header {
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem
+}
+
+header .nav-items ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.nav-items ul .login-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav-items ul .login-btn:hover {
+    background-color: gainsboro;
+    color: white;
+}
+
+.nav-items ul .join-btn {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
